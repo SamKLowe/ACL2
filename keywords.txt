@@ -1,0 +1,97 @@
+#######################################
+# Syntax Coloring Map For PmodACL2
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ACL2	KEYWORD1
+myQueue KEYWORD1
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+xFIFO	KEYWORD1
+yFIFO	KEYWORD1
+zFIFO	KEYWORD1
+tempFIFO	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+#ACL2 CLASS
+
+begin	KEYWORD2
+init	KEYWORD2
+getX	KEYWORD2
+getY	KEYWORD2
+getZ	KEYWORD2
+getTemp	KEYWORD2
+getStatus	KEYWORD2
+reset	KEYWORD2
+setRange	KEYWORD2
+getRange	KEYWORD2
+updateRange	KEYWORD2
+setZero	KEYWORD2
+setChipSelect	KEYWORD2
+getFIFOentries	KEYWORD2
+initFIFO	KEYWORD2
+fillFIFO	KEYWORD2
+
+#myQueue Class
+
+empty	KEYWORD2
+size	KEYWORD2
+front	KEYWORD2
+back	KEYWORD2
+push_back	KEYWORD2
+pop_front	KEYWORD2
+resetQueue	KEYWORD2
+getQueue	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PART_ID	LITERAL1
+X_DATA	LITERAL1
+Y_DATA	LITERAL1
+Z_DATA	LITERAL1
+STATUS	LITERAL1
+FIFO_ENTRIES_L	LITERAL1
+FIFO_ENTRIES_H	LITERAL1
+XDATA_L	LITERAL1
+XDATA_H	LITERAL1
+YDATA_L	LITERAL1
+YDATA_H	LITERAL1
+ZDATA_L	LITERAL1
+ZDATA_H	LITERAL1
+TEMP_L	LITERAL1
+TEMP_H	LITERAL1
+SOFT_RESET	LITERAL1
+THRESH_INACT_L	LITERAL1
+THRESH_INACT_H	LITERAL1
+TIME_INACT_L	LITERAL1
+ACT_INACT_CTL	LITERAL1
+FIFO_CONTROL	LITERAL1
+FIFO_SAMPLES	LITERAL1
+INTMAP1	LITERAL1
+INTMAP2	LITERAL1
+FILTER_CTL	LITERAL1
+POWER_CTL	LITERAL1
+
+
+READ	LITERAL1
+WRITE	LITERAL1
+FIFO_READ	LITERAL1
+FREE_FALL_THRESH	LITERAL1
+FREE_FALL_TIME	LITERAL1
+ABS_INACT_ENABLE	LITERAL1
+SET_INACT_INTERUPT	LITERAL1
+SENSOR_RANGE_8	LITERAL1
+SENSOR_RANGE_4	LITERAL1
+SENSOR_RANGE_2	LITERAL1
+BEGIN_MEASURE	LITERAL1
